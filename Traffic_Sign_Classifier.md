@@ -25,19 +25,7 @@ The goals / steps of this project are the following:
 
 [image5]: ./examples/gray_and_histeq.png "Preprocessing"
 
-[image6]: ./examples/1.png "Traffic Sign 1"
-
-[image7]: ./examples/2.png "Traffic Sign 2"
-
-[image8]: ./examples/3.png "Traffic Sign 3"
-
-[image9]: ./examples/4.png "Traffic Sign 4"
-
-[image10]: ./examples/5.png "Traffic Sign 5"
-
-[image11]: ./examples/6.png "Traffic Sign 6"
-
-[image12]: ./examples/predict.png "Softmax prediction"
+[image6]: ./examples/predict.png "Softmax prediction"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -158,10 +146,9 @@ An iterative approach was chosen:
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-Here are five German traffic signs that I found on the web:
+Here are six German traffic signs that I found on the web:
 
-![alt][image6] ![alt][image7]  ![alt][image8] 
-![alt][image9] ![alt][image10] ![alt][image11]
+<img src="./examples/1.png" width="100" height="100">  <img src="./examples/2.png" width="100" height="100">  <img src="./examples/3.png" width="100" height="100">  <img src="./examples/4.png" width="100" height="100">  <img src="./examples/5.png" width="100" height="100"> <img src="./examples/6.png" width="100" height="100">
 
 The last image might be difficult to classify because of snow masked some parts of it.
 
@@ -188,4 +175,4 @@ The code for making predictions on my final model is located in the eighteenth c
 
 For all images, the model correct predicted signes with probability of 1.0. The top five soft max probabilities were shown for six images on follow bar charts:
 
-![alt][image12]
+![alt][image6]
