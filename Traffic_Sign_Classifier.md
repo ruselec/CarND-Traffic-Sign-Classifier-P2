@@ -21,21 +21,21 @@ The goals / steps of this project are the following:
 
 [image3]: ./examples/augment.png "Augmentation"
 
-[image4]: ./examples/augment_char.png "Visualization"
+[image4]: ./examples/augment_chart.png "Visualization"
 
 [image5]: ./examples/gray_and_histeq.png "Preprocessing"
 
-[image6]: ./examples/1.jpg "Traffic Sign 1"
+[image6]: ./examples/1.png "Traffic Sign 1"
 
-[image7]: ./examples/2.jpg "Traffic Sign 2"
+[image7]: ./examples/2.png "Traffic Sign 2"
 
-[image8]: ./examples/3.jpg "Traffic Sign 3"
+[image8]: ./examples/3.png "Traffic Sign 3"
 
-[image9]: ./examples/4.jpg "Traffic Sign 4"
+[image9]: ./examples/4.png "Traffic Sign 4"
 
-[image10]: ./examples/5.jpg "Traffic Sign 5"
+[image10]: ./examples/5.png "Traffic Sign 5"
 
-[image11]: ./examples/6.jpg "Traffic Sign 6"
+[image11]: ./examples/6.png "Traffic Sign 6"
 
 [image12]: ./examples/predict.png "Softmax prediction"
 
@@ -49,8 +49,7 @@ The goals / steps of this project are the following:
 
 The code for this step is contained in the second code cell of the IPython notebook.  
 
-I used the pandas library to calculate summary statistics of the traffic
-signs data set:
+I used the numpy library to calculate summary statistics of the traffic signs data set:
 
 * The size of training set is 34799
 * The size of test set is 12630
